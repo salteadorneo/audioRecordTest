@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<widget xmlns     = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "com.adonai.markdown4you"
+        version   = "0.1.0">
+    <name>audioRecordTest</name>
+    <description>A test audio record.</description>
+    <author href="http://www.doblea.nom.es" email="adoargu@gmail.com">Adonai Araya Gutiérrez</author>
+
+    <gap:platform name="android" />
+    <preference name="permissions"                value="none"/>
+    <preference name="phonegap-version"           value="3.3.0" />
+    <preference name="orientation"                value="default" />
+    <preference name="target-device"              value="universal" />
+    <preference name="fullscreen"                 value="false" />
+    <preference name="android-minSdkVersion"      value="7" />
+    <preference name="android-installLocation"    value="auto" />
+
+    <gap:plugin name="org.apache.cordova.file" version="1.0.1" />
+    <gap:plugin name="org.apache.cordova.file-transfer" version="0.3.3" />
+    <gap:plugin name="org.apache.cordova.media-capture" version="0.2.8" />
+    <gap:plugin name="org.apache.cordova.media" version="0.2.8" />
+
+    <!--
+    <icon src="icon.png" />
+    <icon src="res/icons/android/icon-36-ldpi.png"   gap:platform="android"    gap:density="ldpi" />
+    <icon src="res/icons/android/icon-48-mdpi.png"   gap:platform="android"    gap:density="mdpi" />
+    <icon src="res/icons/android/icon-72-hdpi.png"   gap:platform="android"    gap:density="hdpi" />
+    <icon src="res/icons/android/icon-96-xhdpi.png"  gap:platform="android"    gap:density="xhdpi" />
+    <icon src="res/icons/android/icon-144-xxhdpi.png"  gap:platform="android"    gap:density="xxhdpi" />
+    <icon src="res/icons/android/icon-192-xxxhdpi.png"  gap:platform="android"    gap:density="xxxhdpi" />
+
+    <gap:splash src="splash.png" />
+    <gap:splash src="res/screens/android/screen-ldpi-portrait.png"  gap:platform="android" gap:density="ldpi" />
+    <gap:splash src="res/screens/android/screen-mdpi-portrait.png"  gap:platform="android" gap:density="mdpi" />
+    <gap:splash src="res/screens/android/screen-hdpi-portrait.png"  gap:platform="android" gap:density="hdpi" />
+    <gap:splash src="res/screens/android/screen-xhdpi-portrait.png" gap:platform="android" gap:density="xhdpi" />
+    -->
+    <access origin="*"/>
+</widget>
