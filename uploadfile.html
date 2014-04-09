@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+	<form action="http://developer.echonest.com/api/v4/track/upload" method="POST" enctype="multipart/form-data">
+		<input type="file" name="track" />
+		<input type="text" name="filetype" value="mp3" />
+		<input type="text" name="api_key" value="8VVR8CRSOR6VUSQSR" />
+		<input type="text" name="format" value="json" />
+		<!--<input type="text" name="url" value="http://a.tumblr.com/tumblr_lu08vbz0X61qlk415o1.mp3" />-->
+		<input type="submit" value="ENVIAR" />
+	</form>
+	<script src="phonegap.js"></script>
+	<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script src="jquery.echonest.js"></script>
+	<script type="text/javascript">
+	$(function(){
+		//var echonest = new EchoNest("8VVR8CRSOR6VUSQSR");
+		//echonest.artist("Radiohead").images( function(imageCollection) {
+		//	console.log(imageCollection);
+		//	//$("body").append( audioCollection.to_html('<p>${artist} - ${length} long<br /><audio src="${url}" controls preload="none"></audio></p>') );
+		//});
+	});
+	</script>
+</body>
+</html>
